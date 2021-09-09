@@ -8,13 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		C4692F6926E9B19600391E23 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4692F6826E9B19600391E23 /* AppDelegate.swift */; };
-		C4692F6B26E9B19600391E23 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4692F6A26E9B19600391E23 /* SceneDelegate.swift */; };
-		C4692F6D26E9B19600391E23 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4692F6C26E9B19600391E23 /* ViewController.swift */; };
 		C4692F7026E9B19600391E23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4692F6E26E9B19600391E23 /* Main.storyboard */; };
 		C4692F7226E9B19900391E23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4692F7126E9B19900391E23 /* Assets.xcassets */; };
 		C4692F7526E9B19900391E23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4692F7326E9B19900391E23 /* LaunchScreen.storyboard */; };
 		C4692F8026E9B19900391E23 /* transitionDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4692F7F26E9B19900391E23 /* transitionDemoTests.swift */; };
 		C4692F8B26E9B19900391E23 /* transitionDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4692F8A26E9B19900391E23 /* transitionDemoUITests.swift */; };
+		C4692FA526E9B23A00391E23 /* EPHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4692FA426E9B23A00391E23 /* EPHomeViewController.swift */; };
+		C4692FB026E9B25C00391E23 /* EPTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4692FAF26E9B25C00391E23 /* EPTabBarController.swift */; };
+		C4692FB526E9B2F700391E23 /* EPPrincipalTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4692FB426E9B2F700391E23 /* EPPrincipalTabBarController.swift */; };
+		C4692FBA26E9B30800391E23 /* EPAgentTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4692FB926E9B30800391E23 /* EPAgentTabBarController.swift */; };
+		C4692FBF26E9B8C900391E23 /* EPMineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4692FBE26E9B8C900391E23 /* EPMineViewController.swift */; };
+		C4692FC426E9B8D800391E23 /* EPMiddleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4692FC326E9B8D800391E23 /* EPMiddleViewController.swift */; };
+		C4692FC926E9D9CF00391E23 /* EPAppContainerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4692FC826E9D9CF00391E23 /* EPAppContainerManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +42,6 @@
 /* Begin PBXFileReference section */
 		C4692F6526E9B19600391E23 /* transitionDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = transitionDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4692F6826E9B19600391E23 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C4692F6A26E9B19600391E23 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C4692F6C26E9B19600391E23 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C4692F6F26E9B19600391E23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C4692F7126E9B19900391E23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C4692F7426E9B19900391E23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +52,13 @@
 		C4692F8626E9B19900391E23 /* transitionDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = transitionDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4692F8A26E9B19900391E23 /* transitionDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = transitionDemoUITests.swift; sourceTree = "<group>"; };
 		C4692F8C26E9B19900391E23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4692FA426E9B23A00391E23 /* EPHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EPHomeViewController.swift; sourceTree = "<group>"; };
+		C4692FAF26E9B25C00391E23 /* EPTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EPTabBarController.swift; sourceTree = "<group>"; };
+		C4692FB426E9B2F700391E23 /* EPPrincipalTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EPPrincipalTabBarController.swift; sourceTree = "<group>"; };
+		C4692FB926E9B30800391E23 /* EPAgentTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EPAgentTabBarController.swift; sourceTree = "<group>"; };
+		C4692FBE26E9B8C900391E23 /* EPMineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EPMineViewController.swift; sourceTree = "<group>"; };
+		C4692FC326E9B8D800391E23 /* EPMiddleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EPMiddleViewController.swift; sourceTree = "<group>"; };
+		C4692FC826E9D9CF00391E23 /* EPAppContainerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EPAppContainerManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,8 +110,8 @@
 			isa = PBXGroup;
 			children = (
 				C4692F6826E9B19600391E23 /* AppDelegate.swift */,
-				C4692F6A26E9B19600391E23 /* SceneDelegate.swift */,
-				C4692F6C26E9B19600391E23 /* ViewController.swift */,
+				C4692FC826E9D9CF00391E23 /* EPAppContainerManager.swift */,
+				C4692FA126E9B21300391E23 /* Controllers */,
 				C4692F6E26E9B19600391E23 /* Main.storyboard */,
 				C4692F7126E9B19900391E23 /* Assets.xcassets */,
 				C4692F7326E9B19900391E23 /* LaunchScreen.storyboard */,
@@ -126,6 +136,35 @@
 				C4692F8C26E9B19900391E23 /* Info.plist */,
 			);
 			path = transitionDemoUITests;
+			sourceTree = "<group>";
+		};
+		C4692FA126E9B21300391E23 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C4692FA326E9B22400391E23 /* Home */,
+				C4692FA226E9B21A00391E23 /* tabBar */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C4692FA226E9B21A00391E23 /* tabBar */ = {
+			isa = PBXGroup;
+			children = (
+				C4692FAF26E9B25C00391E23 /* EPTabBarController.swift */,
+				C4692FB426E9B2F700391E23 /* EPPrincipalTabBarController.swift */,
+				C4692FB926E9B30800391E23 /* EPAgentTabBarController.swift */,
+			);
+			path = tabBar;
+			sourceTree = "<group>";
+		};
+		C4692FA326E9B22400391E23 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				C4692FA426E9B23A00391E23 /* EPHomeViewController.swift */,
+				C4692FC326E9B8D800391E23 /* EPMiddleViewController.swift */,
+				C4692FBE26E9B8C900391E23 /* EPMineViewController.swift */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -190,6 +229,7 @@
 		C4692F5D26E9B19600391E23 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = EP;
 				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1240;
 				TargetAttributes = {
@@ -258,9 +298,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4692F6D26E9B19600391E23 /* ViewController.swift in Sources */,
+				C4692FBF26E9B8C900391E23 /* EPMineViewController.swift in Sources */,
+				C4692FBA26E9B30800391E23 /* EPAgentTabBarController.swift in Sources */,
+				C4692FC926E9D9CF00391E23 /* EPAppContainerManager.swift in Sources */,
+				C4692FC426E9B8D800391E23 /* EPMiddleViewController.swift in Sources */,
+				C4692FA526E9B23A00391E23 /* EPHomeViewController.swift in Sources */,
+				C4692FB526E9B2F700391E23 /* EPPrincipalTabBarController.swift in Sources */,
+				C4692FB026E9B25C00391E23 /* EPTabBarController.swift in Sources */,
 				C4692F6926E9B19600391E23 /* AppDelegate.swift in Sources */,
-				C4692F6B26E9B19600391E23 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -446,7 +491,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ep.demo.transitionDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -465,7 +510,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ep.demo.transitionDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
